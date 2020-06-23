@@ -38,7 +38,7 @@ $(window).on('load', function() {
 	}, 10);
 
 	/* 02. Preloader */
-	$(".preloader").delay(1000).addClass('loaded');
+	$(".preloader").delay(200).addClass('loaded');
 
 	/* 03. Sound Setup */
     $('body').append('<audio loop volume="3" id="audio-player"><source src="img/music.mp3" type="audio/mpeg"></audio>');
